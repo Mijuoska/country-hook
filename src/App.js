@@ -23,7 +23,6 @@ const useCountry = (name) => {
     axios.get(url).then(response => {
       setCountry(response.data[0])
     }).catch(err => {
-      console.log(err)
     })
     }
 
